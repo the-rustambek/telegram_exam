@@ -162,7 +162,7 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
 
 
 
-// localStorage.setItem("data", JSON.stringify(data))
+localStorage.setItem("data", JSON.stringify(data))
 
 const asideListElement = document.querySelector(".aside-list")
 
@@ -235,7 +235,7 @@ function userChatRender() {
     }
 }
 
-let temp;
+
 
 asideItemElement = document.querySelectorAll(".aside-item")
 faTimesBtnElement = document.querySelector(".fa-times-btn")
@@ -256,24 +256,11 @@ asideItemElement.forEach((element, index) => {
         mainHeaderElement.style.display = "flex"
 
 
-        // const mainLogoElement = document.createElement("img")
-        // const mainAvatarElement = document.createElement("div")
-
-        // const mainNameElement = document.createElement("span")
-        // const mainNtfElement = document.createElement("span")
-        // const mainTitleElement = document.createElement("div")
 
         const mainLEndElement = document.createElement("li")
         const mainLStartElement = document.createElement("li")
 
 
-
-        // mainLogoElement.classList.add("main-logo")
-        // mainAvatarElement.classList.add("main-avatar")
-
-        // mainNameElement.classList.add("main-name")
-        // mainNtfElement.classList.add("main-ntf")
-        // mainTitleElement.classList.add("main-title")
 
         mainLStartElement.classList.add("main-l-start")
         mainLEndElement.classList.add("main-l-end")
@@ -286,20 +273,15 @@ asideItemElement.forEach((element, index) => {
         mainLStartElement.textContent = data.chats[selected].chatMessages[0][1]
         mainLEndElement.textContent = data.chats[selected].chatMessages[1][1]
 
-        // mainAvatarElement.appendChild(mainLogoElement)
-        // mainBoxElement.appendChild(mainAvatarElement)
-
-        // mainTitleElement.appendChild(mainNameElement)
-        // mainTitleElement.appendChild(mainNtfElement)
-        // mainBoxElement.appendChild(mainTitleElement)
-
+        contentImgElement.src = data.chats[selected].profileImg;
+        contentTitleElement.textContent = data.chats[selected].chatName
+        contentNtfElement.textContent = data.chats[selected].notification
+        contentTelElement.textContent = data.chats[selected].chatNumber
+        contentUsernameElement.textContent = data.chats[selected].username
+        
         mainListElement.appendChild(mainLStartElement)
         mainListElement.appendChild(mainLEndElement)
-        // userAvatarPhoto.src = data.chats[selected].profileImg;
-        // userProfileName.textContent = data.chats[selected].chatName
-        // UserPhoneNumber.textContent = data.chats[selected].chatNumber
-        // NameUser.textContent = data.chats[selected].chatName
-        // console.log(NameUser.textContent);
+        
 
 
         renderSelectedChatMessages()
@@ -497,6 +479,7 @@ mainFormElement.addEventListener("submit", event => {
         messageChatTime: `${time.getHours()}:${time.getMinutes()}`,
         sender: data.config.name
     })
+    localStorage.setItem('data', JSON.stringify(data))
 
     console.log(data.chats[selected]);
 
@@ -521,7 +504,8 @@ asidePartElment = document.querySelector(".aside-part")
 
 asideBtnELement.addEventListener("click", event => {
     asideNtfElement.style.display = "block"
-    // asidePartElment.style.display="none"
+    // asideChatsElement.style.display = "none"
+    // asideChannelElement.style.display = "none"
 
 })
 asideBtnELement.addEventListener("dblclick", event => {

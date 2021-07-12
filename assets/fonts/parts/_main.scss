@@ -1,14 +1,17 @@
 
+$bgColor:#212121;
+$textColor:#6E6E6E;
+$size:20px;
+$secondSize:25px;
+
+
+
+
+
+
+
 .main {
     width: 70%;
-}
-
-
-
-
-
-
-.main {
     padding-left: 1px;
     // background-color: rgb(24, 24, 24);
     background-color: black;
@@ -25,7 +28,7 @@
     }
 
     .main-header {
-        background-color: #212121;
+        background-color: $bgColor;
         padding: 10px 40px;
         display: flex;
         justify-content: space-between;
@@ -53,7 +56,7 @@
 
         .main-ntf {
             color: #727272;
-            margin-left: 25px;
+            margin-left: $secondSize;
             margin-top: 3px;
         }
     }
@@ -67,7 +70,7 @@
     .main-search-btn,
     .main-menu-btn {
         border: none;
-        background-color: #212121;
+        background-color: $bgColor;
         color: rgb(131, 131, 131);
         font-size: 22px;
         font-weight: 300;
@@ -80,7 +83,7 @@
         width: 50px;
         height: 50px;
         color: rgb(131, 131, 131);
-        margin-right: 20px;
+        margin-right: $size;
         padding: 4px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -118,17 +121,14 @@
         height: 70vh;
         // overflow-y: scroll;
         text-align: center;
-        margin: 20px 60px;
+        margin: $size 60px;
     }
 
     .main-letter {
-        // margin: 17px 60px;
-
-
 
         .main-l-start {
             text-align: start;
-            background-color: #212121;
+            background-color: $bgColor;
             padding: 7px 10px;
             padding-left: 14px;
             border-radius: 10px 0px 10px 10px;
@@ -170,7 +170,7 @@
     align-items:center;
     margin: 15px 10px;
     button{
-        background-color:#212121;
+        background-color:$bgColor;
         border:none;
         color: white;
         font-size: 19px;
@@ -187,8 +187,8 @@
 }
 
 .main-aside{
-    background-color: #212121;
-    padding: 25px;
+    background-color: $bgColor;
+    padding: $secondSize;
     display:none;
     position: absolute;
     top: 120%;
@@ -203,7 +203,7 @@
 }
 
 .main-info{
-    margin-left: 25px;
+    margin-left: $secondSize;
 }
     .main-l-end .main-l-end-active {
         max-width: 25%;
@@ -222,9 +222,9 @@
 
     .main-message {
 
-        background-color: #212121;
-        padding: 10px 20px;
-        // padding-left: 20px;
+        background-color: $bgColor;
+        padding: 10px $size;
+        // padding-left: $size;
         text-align: start;
         border-radius: 10px;
         -webkit-border-radius: 10px;
@@ -237,47 +237,56 @@
     }
 
     .main-emoji-btn {
-        background-color: #212121;
-        color: #6E6E6E;
+        background-color: $bgColor;
+        color:$textColor;
         border: none;
         font-size: 24px;
 
     }
 
     .main-input {
-        padding: 8px 25px;
+        padding: 8px $secondSize;
         padding-right: 150px;
-        background-color: #212121;
+        background-color: $bgColor;
         border: none;
         margin-left: 10px;
-        color: #6E6E6E;
+        color:$textColor;
         font-size: 18px;
         outline: none;
     }
 
     .main-download-btn {
-        background-color: #212121;
+        background-color: $bgColor;
         border: none;
-        color: #6E6E6E;
+        color:$textColor;
         font-size: 22px;
 
     }
 
     .main-microphone {
-        background-color: #212121;
+        background-color: $bgColor;
         border: none;
         width: 60px;
         height: 60px;
-        font-size: 25px;
+        font-size: $secondSize;
         padding: 10px;
         border-radius: 50%;
-        color: #6E6E6E;
+        color:$textColor;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         margin-left: 30px;
     }
+    .main-microphone:hover{
+        background-color: #3b3a3a;
+        transition: 0.3s;
+        color: blueviolet;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+}
 
     .main-footer {
         display: flex;

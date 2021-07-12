@@ -1,7 +1,17 @@
+$bgColor:#212121;
+$textColor: #6E6E6E;
+$size:20px;
+
+.aside-item-active {
+    background-color:#8774E1;
+    &:hover{
+        background-color:#8774E1 !important;
+    }
+}
 
 .search-section {
     width: 42%;
-    background-color: #212121;
+    background-color: $bgColor;
     display: flex;
     justify-content: space-between;
     display: none;
@@ -11,26 +21,26 @@
 .search-btn,
 .search-calendar {
     border: none;
-    background-color: #212121;
-    font-size: 20px;
-    color: #6E6E6E;
+    background-color: $bgColor;
+    font-size: $size;
+    color: $textColor;
     margin-top: 8px;
 }
 
 .search-input {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: $size;
+    margin-right: $size;
 
     input {
         position: relative;
-        border: 1px solid #6E6E6E;
+        border: 1px solid $textColor;
         padding: 12px 30px;
         padding-left: 45px;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
+        border-radius: $size;
+        -webkit-border-radius: $size;
+        -moz-border-radius: $size;
+        -ms-border-radius: $size;
+        -o-border-radius: $size;
         background-color: rgb(24, 24, 24);
         outline: none;
         color: white;
@@ -44,7 +54,7 @@
     top: 7%;
     left: 77%;
     transform: translate(-50%, -50%);
-    color: #6E6E6E;
+    color: $textColor;
     font-size: 18px;
 }
 
@@ -52,19 +62,14 @@
     position: absolute;
     top: 7%;
     left: 93%;
-    color: #6E6E6E;
+    color: $textColor;
     transform: translate(-50%, -50%);
     font-size: 18px;
 }
 
-.aside-item-active {
-    background-color:#8774E1;
-    &:hover{
-        background-color:#8774E1 !important;
-    }
-}
+
 
 .aside-search{
     padding: 15px;
-    background-color: #212121;
+    background-color: $bgColor;
 }
