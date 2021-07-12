@@ -1,0 +1,310 @@
+
+.main {
+    width: 70%;
+}
+
+
+
+
+
+
+.main {
+    padding-left: 1px;
+    // background-color: rgb(24, 24, 24);
+    background-color: black;
+    // overflow: scroll;
+    // overflow-x: hidden;
+    // overflow-y: scroll;
+
+    .main-logo {
+        width: 50px;
+        border-radius: 50%;
+
+
+
+    }
+
+    .main-header {
+        background-color: #212121;
+        padding: 10px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position:relative;
+    }
+
+    .main-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+
+        .main-name {
+            color: #fff;
+            margin-top: 5px;
+        }
+
+        .main-ntf {
+            color: #727272;
+            margin-left: 25px;
+            margin-top: 3px;
+        }
+    }
+
+    .main-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-search-btn,
+    .main-menu-btn {
+        border: none;
+        background-color: #212121;
+        color: rgb(131, 131, 131);
+        font-size: 22px;
+        font-weight: 300;
+        transition: 0.3s;
+
+
+    }
+
+    .main-search-btn {
+        width: 50px;
+        height: 50px;
+        color: rgb(131, 131, 131);
+        margin-right: 20px;
+        padding: 4px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+
+    .fa-ellipsis-v {
+        padding: 6px;
+    }
+
+    .main-menu-btn {
+
+        width: 50px;
+        height: 50px;
+        color: rgb(131, 131, 131);
+
+        padding: 4px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+
+    }
+
+    .main-search-btn:hover,
+    .main-menu-btn:hover {
+        background-color: #333;
+
+    }
+
+    .main-chats {
+        height: 70vh;
+        // overflow-y: scroll;
+        text-align: center;
+        margin: 20px 60px;
+    }
+
+    .main-letter {
+        // margin: 17px 60px;
+
+
+
+        .main-l-start {
+            text-align: start;
+            background-color: #212121;
+            padding: 7px 10px;
+            padding-left: 14px;
+            border-radius: 10px 0px 10px 10px;
+            justify-content: start;
+            max-width: 50%;
+            color: white;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            -webkit-border-radius: 10px 10px 10px 0px;
+            -moz-border-radius: 10px 0px 10px 10px;
+            -ms-border-radius: 10px 0px 10px 10px;
+            -o-border-radius: 10px 0px 10px 10px;
+        }
+
+        .main-l-end {
+            margin-top: 15px;
+            text-align: start;
+            background-color: #8774E1;
+            padding: 7px 10px;
+            padding-left: 14px;
+            border-radius: 10px 10px 10px 0px;
+            color: white;
+            font-size: 17px;
+            max-width: 50%;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            -webkit-border-radius: 10px 10px 10px 0px;
+            -moz-border-radius: 10px 10px 10px 0px;
+            -ms-border-radius: 10px 10px 10px 0px;
+            -o-border-radius: 10px 10px 10px 0px;
+        }
+    }
+    
+.main-aside-item{
+    display:flex;
+    align-items:center;
+    margin: 15px 10px;
+    button{
+        background-color:#212121;
+        border:none;
+        color: white;
+        font-size: 19px;
+        // padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+    .main-aside--active{
+        color:red
+    }
+}
+
+.main-aside{
+    background-color: #212121;
+    padding: 25px;
+    display:none;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+    // transform: translate(-50%, -50%);
+   
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.main-info{
+    margin-left: 25px;
+}
+    .main-l-end .main-l-end-active {
+        max-width: 25%;
+    }
+
+    .main-day {
+        color: white;
+        font-size: 18px;
+    }
+
+    .main-l-time {
+        font-size: 14px;
+        color: rgb(187, 184, 184);
+        margin-left: auto;
+    }
+
+    .main-message {
+
+        background-color: #212121;
+        padding: 10px 20px;
+        // padding-left: 20px;
+        text-align: start;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-emoji-btn {
+        background-color: #212121;
+        color: #6E6E6E;
+        border: none;
+        font-size: 24px;
+
+    }
+
+    .main-input {
+        padding: 8px 25px;
+        padding-right: 150px;
+        background-color: #212121;
+        border: none;
+        margin-left: 10px;
+        color: #6E6E6E;
+        font-size: 18px;
+        outline: none;
+    }
+
+    .main-download-btn {
+        background-color: #212121;
+        border: none;
+        color: #6E6E6E;
+        font-size: 22px;
+
+    }
+
+    .main-microphone {
+        background-color: #212121;
+        border: none;
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 50%;
+        color: #6E6E6E;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        margin-left: 30px;
+    }
+
+    .main-footer {
+        display: flex;
+        margin: 200px 80px 15px 100px;
+        position: fixed;
+        
+        bottom: 0;
+        
+
+    }
+
+    .main-header,
+    .main-chats,
+    .main-footer {
+        display: none;
+
+    }
+  
+}
+
+.main-footer--active{
+    margin: 50px 100px;
+}
+.main-microphone--active{
+    margin-left: 10px;
+}
+.main-input--active{
+    padding-right: 10px;
+}
+

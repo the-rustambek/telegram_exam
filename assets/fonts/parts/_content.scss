@@ -1,0 +1,121 @@
+
+.content {
+    width: 35%;
+    display: none;
+    background-color: #212121;
+    border-left: 1px solid black;
+
+    .content-header {
+        margin-left: 1px;
+
+    }
+
+    .content-header,
+    .content-profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 12.5px 18px;
+
+        h2 {
+            margin-left: 25px;
+            font-weight: 500;
+            font-size: 20px;
+            color: white;
+        }
+    }
+
+    .fa-times {
+        font-size: 19px;
+        font-weight: 501;
+        color: #A5A5A5;
+    }
+
+    .fa-times-btn {
+        background-color: #212121;
+        border: none;
+    }
+
+    .fa-pencil-btn {
+        background-color: #212121;
+        border: none;
+        color: #A5A5A5;
+        font-size: 17px;
+        // font-weight: 501;
+    }
+
+    .content-avatar {
+        position: relative;
+        // margin-top: 16px;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+
+        }
+
+        .content-name {
+            position: absolute;
+            color: white;
+            top: 85%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            font-size: 18px;
+
+            span {
+                font-size: 14px;
+                color: #A5A5A5;
+            }
+        }
+    }
+
+    .content-contact {
+        padding: 25px 20px 10px 30px;
+
+    }
+
+    .content-item {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        div {
+            margin-left: 30px;
+        }
+
+        .fa-phone-alt,
+        .fa-at,
+        .fa-bell,
+        .fa-toggle-on {
+            font-size: 25px;
+            color: #6E6E6E;
+
+        }
+
+        a,
+        .content-username,
+        .content-notifications {
+            color: white;
+            text-decoration: none;
+
+        }
+
+        p {
+            font-size: 15px;
+            color: #6E6E6E;
+            line-height: 25px;
+        }
+
+        .fa-toggle-on {
+            color: #8774E1;
+            font-size: 30px;
+            margin-left: 40px;
+        }
+    }
+}

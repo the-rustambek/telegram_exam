@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram</title>
+    <!-- <link rel="shortcut icon" href="./assets/img/telegram.jpg" type="image/x-icon"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==">
+    <link rel="stylesheet" href="./assets/fonts/menu.css">
+</head>
+
+<body class="telegram-body">
+
+
+    <div class="part">
+        <div class="container">
+
+            <div class="aside">
+
+                <div class="aside-toggle">
+                    <div class="aside-blok">
+                        <div class="">
+                            <button class="aside-btn">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="aside-input">
+                            <form class="aside-form" action="">
+                                <input class="aside-search-input" type="text" placeholder="Search" required>
+                                <span style="font-size: 3em;">
+                                    <i class="fas fa-search"></i>
+                                </span></form>
+                        </div>
+
+                    </div>
+                    <div class="aside-ntf">
+                        <ul class="aside-ntf-list">
+
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="far fa-bookmark"></i>
+                                </span>
+                                <span class="aside-ntf-text">Saved Messages</span>
+                            </li>
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-box"></i>
+                                </span>
+                                <span class="aside-ntf-text">Archived Chats</span>
+                            </li>
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="far fa-user"></i>
+                                </span>
+                                <span class="aside-ntf-text">Contacts</span>
+                            </li>
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-cog"></i>
+                                </span>
+                                <span class="aside-ntf-text">Settings</span>
+                            </li>
+
+
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-moon"></i>
+                                </span>
+                                <span class="aside-ntf-text">Dark mode</span>
+                                <span>
+                                    <label class="switch switch-active ">
+                                        <input class="aside-ntf-input slider-active" type="checkbox">
+                                        <span class="slider round "></span>
+                                    </label>
+                                </span>
+                            </li>
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-radiation"></i>
+                                </span>
+                                <span class="aside-ntf-text">Animations</span>
+                                <span>
+                                    <label class="switchs">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </span>
+                            </li>
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="far fa-question-circle"></i>
+                                </span>
+                                <span class="aside-ntf-text">Telegram features</span>
+                            </li>
+
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-bug"></i>
+                                </span>
+                                <span class="aside-ntf-text">Switch to Z version</span>
+                            </li>
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-cog"></i>
+                                </span>
+                                <span class="aside-ntf-text">Switch to W version</span>
+                            </li>
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+                                    <i class="fas fa-box"></i>
+                                </span>
+                                <span class="aside-ntf-text">Auto Save</span>
+                            </li>
+                            <li class="aside-ntf-item">
+                                <span class="settings-icon">
+
+                                    <i class="far fa-user"></i>
+                                </span>
+                                <span class="aside-ntf-text">Logo Out</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="aside-part">
+                        <button class="aside-chats active">
+                            All Chats
+                        </button>
+                        <button class="aside-channel ">
+                            Channels
+                        </button>
+
+                    </div>
+
+
+                </div>
+
+
+                <hr class="aside-line">
+                <!-- 
+<div class="aside-search">
+    <ul class="aside-search-list ">
+
+    </ul>
+</div> -->
+
+                <div class="aside-menu aside-menu--active">
+
+                    <ul class="aside-list ">
+
+                    </ul>
+
+
+
+
+                </div>
+
+
+
+
+                <!-- <div class="aside-menu aside-menu--none">
+
+                    <ul class="aside-list">
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/kun_uz.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Kun.uz
+                                    </span>
+
+                                    <span class="aside-time aside-time--mmleft">19:38</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    <span> Toshkentda svet o'ch ...</span>
+                                    <span class="aside-circle">21</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/It_time.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        IT - Time
+                                    </span>
+
+                                    <i class="far fa-bell-slash"></i>
+                                    <span class="aside-time aside-time--mleft">19:12</span>
+                                </div>
+                                <div class="aside-text">
+                                    <span>Assalomu alaykum ...</span>
+                                    <span class="aside-circle">3</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/Meni_kanalaim.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Rustambek-Blog
+                                    </span>
+                                    <span class="aside-time">17:11</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    Bizning darslarimiz ...
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/mingbuloq.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Mingbuloqliklar
+                                        </sp>
+                                        <span class="aside-time">15:41</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    Issiq 60' C ekanligi ...
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/abdukarim.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <p class="aside-menu-title">
+                                        Abdukarim Mirzayev
+                                    </p>
+
+                                    <i class="far fa-bell-slash"></i>
+                                    <span class="aside-time">14:31</span>
+                                </div>
+                                <div class="aside-text">
+                                    Inson dunyoga keli ...
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/Muhammaadali.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Muhammadali Eshonqulov
+                                    </span>
+                                    <span class="aside-time">14:31</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    <span> Biznesda maqsad q ...</span>
+                                    <span class="aside-circle">7</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/psixolog.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Psixologik bilimlar
+                                    </span>
+                                    <i class="far fa-bell-slash"></i>
+                                    <span class="aside-time">14:01</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    Hayotda inson kulib ...
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="aside-item">
+                            <div class="aside-thumb">
+                                <img class="aside-logo" src="./assets/img/mehrob.jpg" alt="">
+                            </div>
+                            <div class="aside-subtitle">
+
+                                <div class="aside-subtext">
+                                    <span class="aside-menu-title">
+                                        Mehrob.uz
+                                    </span>
+                                    <span class="aside-time aside-time--mmmleft">14:01</span>
+
+                                </div>
+                                <div class="aside-text">
+                                    Namoz o'qiyotgan o ...
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+-->
+
+            </div>
+
+
+
+
+
+
+            <div class="main">
+
+                <div class="main-header">
+
+                    <div class="main-box">
+                        <div class="main-avatar">
+                            <img class="main-logo" src="./assets/img/Elnur.jpg" alt="">
+                        </div>
+
+
+
+                        <div class="main-title">
+                            <span class="main-name">Elnur devel</span>
+                            <span class="main-ntf">last seen recently</span>
+                        </div>
+                    </div>
+
+                    <div class="main-button">
+                        <button class="main-search-btn">
+                            <i class="main-search fas fa-search"></i>
+                        </button>
+                        <button class="main-menu-btn">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+
+                    <div class="main-aside">
+                        <ul class="main-aside-list">
+                            <li class="main-aside-item">
+                                <button>
+                                    <span><i class="far fa-bell-slash"></i></span>
+                                    <span class="main-info">Mute</span>
+                                </button>
+                            </li>
+                            <li class="main-aside-item">
+                                <button>
+                                    <span><i class="fas fa-clipboard-check"></i></span>
+                                    <span class="main-info">Select Messages</span></button>
+                            </li>
+                            <li class="main-aside-item ">
+                                <button class="main-aside--active">
+                                    <span><i class="far fa-trash-alt"></i></span>
+                                    <span class="main-info">Leave group</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="main-chats">
+                    <p class="main-day">Today</p>
+                    <div class="main-letter">
+                        <ul class="main-list">
+
+
+
+                        </ul>
+                    </div>
+
+
+                </div>
+
+                <div class="main-footer">
+                    <div class="main-message">
+                        <div class="main-submit">
+                            <form class="main-form" action="">
+                                <button class="main-emoji-btn"><i class="far fa-smile"></i></button>
+                                <input class="main-input" type="text" placeholder="Message" required>
+                            </form>
+                        </div>
+                        <div class="">
+                            <button class="main-download-btn">
+                                <i class="fas fa-paperclip">
+                                </i></button>
+                        </div>
+                    </div>
+                    <div class="">
+                        <button class="main-microphone">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ********************** content  ************************************* -->
+
+            <div class="content">
+
+                <div class="content-header">
+                    <div class="content-profile">
+                        <button class="fa-times-btn">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <h2>Profile</h2>
+                    </div>
+
+                    <div class="">
+                        <button class="fa-pencil-btn">
+                            <i class="fas fa-pencil-alt"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="content-avatar">
+                    <img class="content-img" src="./assets/img/Elnur.jpg" alt="">
+                    <div class="content-name">
+                        <p class="content-title">Elnur devel</p>
+                        <span class="content-ntf">last seen recently</span>
+                    </div>
+                </div>
+
+                <div class="content-contact">
+                    <ul>
+                        <li class="content-item">
+                            <span>
+                                <i class="fas fa-phone-alt"></i>
+                            </span>
+                            <div class="content-number">
+                                <a class="content-tel" href="tel:+998914556235">+998 91 455 6235</a>
+                                <p>Phone</p>
+                            </div>
+                        </li>
+                        <li class="content-item">
+                            <span>
+                                <i class="fas fa-at"></i></span>
+                            <div class="content-u-name">
+                                <p class="content-username">elnur_ruzmanov</p>
+                                <p>Username</p>
+                            </div>
+                        </li>
+                        <li class="content-item">
+                            <span>
+                                <i class="far fa-bell"></i></span>
+                            <div class="">
+
+                                <p class="content-notifications">Notifications</p>
+
+                            </div>
+                            <div class="">
+
+
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="search-section">
+                <div class="">
+                    <button class="search-btn">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                </div>
+
+
+                <div class="search-input">
+                    <input class="search-s-input" minlength="3" type="text" placeholder="Search ..." required>
+                    <span class="search-span">
+                        <i class="fas fa-search"></i>
+                    </span>
+                    <span class="search-x-span">
+                        <i class="fas fa-times"></i></span>
+                </div>
+                <div class="">
+                    <button class="search-calendar">
+                        <i class="fas fa-calendar"></i>
+
+                    </button>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
