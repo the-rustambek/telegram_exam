@@ -396,7 +396,7 @@ asideMenuNoneElement = document.querySelector(".aside-menu--none")
 faTimesBtnElement.addEventListener("click", event => {
     contentElement.style.display = "none"
     mainFooterElement.classList.remove("main-footer--active")
-    mainMicrophoneElement.classList.remove("main-microphone--active")
+    mainMicrophoneElement.style.marginLeft("main-microphone--active")
     mainChatsElement.style.margin = "10px"
     mainInputElement.classList.remove("main-input--active")
     mainChatsElement.style.margin = "20px 60px"
@@ -424,9 +424,9 @@ mainSearchBtnElement.addEventListener("click", event => {
     contentElement.style.display = "none"
     // contentElement.style.display= "block"
     mainFooterElement.style.margin = "10px 0px 10px 10px"
-    mainMicrophoneElement.style.marginLeft = "20px"
+    mainMicrophoneElement.style.marginLeft = "10px"
     mainChatsElement.style.margin = "10px"
-    mainInputElement.style.paddingRight = "60px"
+    mainInputElement.style.paddingRight = "50px"
     mainAsideElement.style.display = "none"
 
     searchBtnElement.addEventListener("click", event => {
