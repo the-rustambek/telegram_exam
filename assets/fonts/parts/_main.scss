@@ -9,7 +9,6 @@ $secondSize:25px;
 
 
 
-
 .main {
     width: 70%;
     padding-left: 1px;
@@ -117,14 +116,19 @@ $secondSize:25px;
 
     }
 
-    .main-chats {
-        height: 70vh;
-        // overflow-y: scroll;
-        text-align: center;
-        margin: $size 60px;
-    }
+    .main-chats{
+        width: 100%;
+        height: 74vh;
+        overflow: scroll;
+        overflow-x: hidden;
 
-    .main-letter {
+    }
+    
+.main-list{
+    width:100%;
+    margin: 10px 60px;
+}
+    
 
         .main-l-start {
             text-align: start;
@@ -133,7 +137,7 @@ $secondSize:25px;
             padding-left: 14px;
             border-radius: 10px 0px 10px 10px;
             justify-content: start;
-            max-width: 50%;
+            max-width:49%;
             color: white;
             font-size: 17px;
             display: flex;
@@ -147,14 +151,14 @@ $secondSize:25px;
 
         .main-l-end {
             margin-top: 15px;
-            text-align: start;
+            text-align: end;
             background-color: #8774E1;
             padding: 7px 10px;
             padding-left: 14px;
             border-radius: 10px 10px 10px 0px;
             color: white;
             font-size: 17px;
-            max-width: 50%;
+            max-width: 49%;
             margin-left: auto;
             display: flex;
             align-items: center;
@@ -163,7 +167,7 @@ $secondSize:25px;
             -ms-border-radius: 10px 10px 10px 0px;
             -o-border-radius: 10px 10px 10px 0px;
         }
-    }
+    
     
 .main-aside-item{
     display:flex;
@@ -212,6 +216,8 @@ $secondSize:25px;
     .main-day {
         color: white;
         font-size: 18px;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .main-l-time {
@@ -324,3 +330,4 @@ $secondSize:25px;
 //     overflow: scroll;
 //     overflow-x: hidden;
 // }
+
