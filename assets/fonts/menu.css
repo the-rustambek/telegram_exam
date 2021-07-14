@@ -792,7 +792,7 @@
   height: 74vh;
   overflow: scroll;
   overflow-x: hidden;
-  margin: 0px 0px 0px 15px;
+  margin: 0px 5px 0px 15px;
   margin: 0 auto;
 }
 
@@ -810,7 +810,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  max-width: 40%;
+  max-width: 35%;
   color: white;
   font-size: 17px;
   display: -webkit-box;
@@ -835,7 +835,7 @@
   border-radius: 10px 10px 10px 0px;
   color: white;
   font-size: 17px;
-  max-width: 40%;
+  max-width: 35%;
   margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -901,6 +901,13 @@
   color: white;
   font-size: 18px;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 10px;
 }
 
