@@ -792,11 +792,13 @@
   height: 74vh;
   overflow: scroll;
   overflow-x: hidden;
+  margin: 0px 0px 0px 15px;
+  margin: 0 auto;
 }
 
 .main .main-list {
   width: 100%;
-  margin: 10px 60px;
+  margin: 0px 10px 0px 0px;
 }
 
 .main .main-l-start {
@@ -808,7 +810,7 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  max-width: 49%;
+  max-width: 40%;
   color: white;
   font-size: 17px;
   display: -webkit-box;
@@ -833,7 +835,7 @@
   border-radius: 10px 10px 10px 0px;
   color: white;
   font-size: 17px;
-  max-width: 49%;
+  max-width: 40%;
   margin-left: auto;
   display: -webkit-box;
   display: -ms-flexbox;

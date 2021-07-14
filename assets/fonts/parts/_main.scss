@@ -121,12 +121,14 @@ $secondSize:25px;
         height: 74vh;
         overflow: scroll;
         overflow-x: hidden;
-
+margin: 0px 5px 0px 15px;
+margin: 0 auto;
     }
     
 .main-list{
     width:100%;
-    margin: 10px 60px;
+    margin: 0px 10px 0px 0px;
+    // margin: 10px 60px;
 }
     
 
@@ -137,7 +139,7 @@ $secondSize:25px;
             padding-left: 14px;
             border-radius: 10px 0px 10px 10px;
             justify-content: start;
-            max-width:49%;
+            max-width:40%;
             color: white;
             font-size: 17px;
             display: flex;
@@ -158,7 +160,7 @@ $secondSize:25px;
             border-radius: 10px 10px 10px 0px;
             color: white;
             font-size: 17px;
-            max-width: 49%;
+            max-width: 40%;
             margin-left: auto;
             display: flex;
             align-items: center;
