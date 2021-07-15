@@ -788,17 +788,14 @@
 }
 
 .main .main-chats {
-  width: 100%;
   height: 74vh;
   overflow: scroll;
   overflow-x: hidden;
-  margin: 0px 5px 0px 15px;
-  margin: 0 auto;
 }
 
 .main .main-list {
   width: 100%;
-  margin: 0px 10px 0px 0px;
+  margin-left: 20px;
 }
 
 .main .main-l-start {
@@ -813,12 +810,6 @@
   max-width: 35%;
   color: white;
   font-size: 17px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 15px;
   -webkit-border-radius: 10px 10px 10px 0px;
   -moz-border-radius: 10px 0px 10px 10px;
@@ -836,13 +827,11 @@
   color: white;
   font-size: 17px;
   max-width: 35%;
-  margin: 10px 0px [] 0px auto;
+  margin-left: 300px;
+  margin: 10px 0px 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-border-radius: 10px 10px 10px 0px;
   -moz-border-radius: 10px 10px 10px 0px;
   -ms-border-radius: 10px 10px 10px 0px;
