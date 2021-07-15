@@ -191,12 +191,7 @@
 
 .aside .aside-ntf-item:hover {
   background-color: #3b3a3a;
-  transition: 0.3s;
   border-radius: 10px;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -238,6 +233,8 @@
   border-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .aside .active {
@@ -268,8 +265,6 @@
 .aside .aside-channel:hover {
   color: #7767C4;
   background-color: #2B2B2B;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 .aside .aside-menu {
@@ -312,13 +307,13 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
 .aside .aside-item:hover {
   background-color: #3b3a3a;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 .aside .fa-bell-slash {
@@ -463,15 +458,15 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
-
-.content .fa-times-btn:hover {
-  background-color: #3b3a3a;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+.content .fa-times-btn:hover {
+  background-color: #3b3a3a;
 }
 
 .content .fa-pencil-btn {
@@ -483,15 +478,15 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-
-.content .fa-pencil-btn:hover {
-  background-color: #3b3a3a;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+.content .fa-pencil-btn:hover {
+  background-color: #3b3a3a;
 }
 
 .content .content-avatar {
@@ -653,15 +648,15 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
-
-.search-btn:hover, .search-calendar:hover {
-  background-color: #3b3a3a;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+.search-btn:hover, .search-calendar:hover {
+  background-color: #3b3a3a;
 }
 
 .main {
@@ -788,14 +783,15 @@
 }
 
 .main .main-chats {
+  width: 95%;
   height: 74vh;
   overflow: scroll;
   overflow-x: hidden;
 }
 
 .main .main-list {
-  width: 100%;
-  margin-left: 20px;
+  width: 90%;
+  padding-top: 15px;
 }
 
 .main .main-l-start {
@@ -810,6 +806,7 @@
   max-width: 35%;
   color: white;
   font-size: 17px;
+  margin-left: 60px;
   margin-top: 15px;
   -webkit-border-radius: 10px 10px 10px 0px;
   -moz-border-radius: 10px 0px 10px 10px;
@@ -819,7 +816,6 @@
 
 .main .main-l-end {
   margin-top: 15px;
-  text-align: end;
   background-color: #8774E1;
   padding: 7px 10px;
   padding-left: 14px;
@@ -827,7 +823,6 @@
   color: white;
   font-size: 17px;
   max-width: 35%;
-  margin-left: 300px;
   margin: 10px 0px 0px auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -900,6 +895,8 @@
 }
 
 .main .main-message {
+  width: 500px;
+  margin-left: 110px;
   background-color: #212121;
   padding: 10px 20px;
   text-align: start;
@@ -949,6 +946,8 @@
   border: none;
   width: 60px;
   height: 60px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   font-size: 25px;
   padding: 10px;
   border-radius: 50%;
@@ -962,12 +961,7 @@
 
 .main .main-microphone:hover {
   background-color: #3b3a3a;
-  transition: 0.3s;
   color: blueviolet;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
 }
 
 .main .main-footer {

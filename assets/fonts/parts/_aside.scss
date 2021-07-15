@@ -195,12 +195,9 @@ $size: 20px;
   
 .aside-ntf-item:hover{
     background-color:  #3b3a3a;
-    transition:0.3s;
+
     border-radius: 10px;
-    -webkit-transition:0.3s;
-    -moz-transition:0.3s;
-    -ms-transition:0.3s;
-    -o-transition:0.3s;
+ 
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -236,7 +233,7 @@ $size: 20px;
         border-radius: 10px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
-
+        transition:0.3s;
     }
 
     .active {
@@ -278,7 +275,7 @@ $size: 20px;
     .aside-channel:hover {
         color: #7767C4;
         background-color: #2B2B2B;
-        transition: 0.3s;
+        
     }
 .aside-menu{
     width: 100%;
@@ -309,11 +306,12 @@ $size: 20px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     user-select: none;
+    transition: 0.3s;
     cursor: pointer;
 }
     .aside-item:hover {
         background-color: #3b3a3a;
-        transition: 0.3s;
+        
     }
 
     .fa-bell-slash {

@@ -13,15 +13,15 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
         chatName: 'Elnurjon develop',
         profileImg: './assets/img/Elnur.jpg',
         chatNumber: '+998 99 758 9814',
-        notification: 'last seen at 09:36 PM',
+        notification: 'last seen 09:36 PM',
         username: "elnur_ruzmanov",
         chatMessages: [{
             sender: 'Rustambek',
-            message: 'Assalomu Alaykum',
+            message: 'Assalomu Alaykum, Dostim Jack',
             chatTime: '17:56'
         }, {
             sender: 'Sarvarbek dost',
-            message: 'Vaalaykum assalom',
+            message: 'Vaalaykum assalom,oshna',
             chatTime: "18:00"
         }]
     }, {
@@ -34,11 +34,11 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
         chatMessages: [{
             sender: 'Rustambek',
 
-            message: 'Qalesiz, nima yangiliklar?',
+            message: 'Qalesiz, nima yangiliklar? Tinchmi',
             chatTime: '00:26'
         }, {
             sender: 'Elnur developer',
-            message: 'Yaxshi raxmat.',
+            message: 'Yaxshi raxmat.Kim bu? Tanimadim',
             chatTime: "18:00"
         }]
     }, {
@@ -51,11 +51,11 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
         chatMessages: [{
             sender: 'Rustambek',
 
-            message: 'Ishlar bolyaptimi?',
+            message: 'Ishlar bolyaptimi? Tichmi?',
             chatTime: '12:46'
         }, {
             sender: 'Sarvarbek dost',
-            message: 'Assalomu alaykum',
+            message: 'Assalomu alaykum,ob-havo qale?',
             chatTime: "18:00"
         }]
     }, {
@@ -67,11 +67,11 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
         username: "time_uz",
         chatMessages: [{
             sender: 'Rustambek',
-            message: 'Assalomu Alaykum',
+            message: 'Assalomu Alaykum yaxshimisiz?',
             chatTime: '13:26'
         }, {
             sender: 'Elnur developer',
-            message: 'Vaalaykum assalom',
+            message: 'Vaalaykum assalom, uydagilar yaxshimi?',
             chatTime: "18:00"
         }]
     }, {
@@ -83,7 +83,7 @@ let data = (localStorageData) ? JSON.parse(localStorageData) : {
         username: "not_an_old_man",
         chatMessages: [{
             sender: 'Rustambek',
-            message: 'Aka qalesiz',
+            message: 'Aka qalesiz, Telegram tugadimi?',
             chatTime: '22:06'
         }, {
             sender: 'Elnur developer',
@@ -431,10 +431,10 @@ mainSearchBtnElement.addEventListener("click", event => {
 
     searchBtnElement.addEventListener("click", event => {
         searchSectionElement.style.display = "none"
-        mainFooterElement.style.margin = "150px 80px 0px 100px"
-        mainMicrophoneElement.style.marginLeft = "30px"
-        mainChatsElement.style.margin = "20px 60px"
-        mainInputElement.style.paddingRight = "220px"
+        mainFooterElement.style.marginLeft = "00px"
+        mainMicrophoneElement.style.marginLeft = "15px"
+        // mainChatsElement.style.marginLeft = "20px"
+        mainInputElement.style.paddingRight = "200px"
     })
 
     searchXSpanElement.addEventListener("click", event => {

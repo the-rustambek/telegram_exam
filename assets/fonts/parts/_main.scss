@@ -117,7 +117,7 @@ $secondSize:25px;
     }
 
     .main-chats{
-        // width: 100%;
+        width: 95%;
         height: 74vh;
         overflow: scroll;
         overflow-x: hidden;
@@ -126,10 +126,11 @@ $secondSize:25px;
     }
     
 .main-list{
-    width:100%;
+    width:90%;
+    padding-top: 15px;
     // margin: 0px 10px 0px 0px;
     // margin: 10px 60px;
-    margin-left: 20px;
+    // margin-left: 20px;
     // mar
 }
     
@@ -144,7 +145,7 @@ $secondSize:25px;
             max-width:35%;
             color: white;
             font-size: 17px;
-            
+            margin-left: 60px;
             margin-top: 15px;
             -webkit-border-radius: 10px 10px 10px 0px;
             -moz-border-radius: 10px 0px 10px 10px;
@@ -154,7 +155,7 @@ $secondSize:25px;
 
         .main-l-end {
             margin-top: 15px;
-            text-align: end;
+            // text-align: end;
             background-color: #8774E1;
             padding: 7px 10px;
             padding-left: 14px;
@@ -162,8 +163,9 @@ $secondSize:25px;
             color: white;
             font-size: 17px;
             max-width: 35%;
-            margin-left: 300px;
+            // margin-left: 300px;
             margin: 10px 0px 0px auto;
+            
             display: flex;
             // align-items: center;
             -webkit-border-radius: 10px 10px 10px 0px;
@@ -231,7 +233,8 @@ $secondSize:25px;
     }
 
     .main-message {
-
+width: 500px;
+margin-left:110px;
         background-color: $bgColor;
         padding: 10px $size;
         // padding-left: $size;
@@ -278,6 +281,7 @@ $secondSize:25px;
         border: none;
         width: 60px;
         height: 60px;
+        transition: 0.3s;
         font-size: $secondSize;
         padding: 10px;
         border-radius: 50%;
@@ -290,12 +294,9 @@ $secondSize:25px;
     }
     .main-microphone:hover{
         background-color: #3b3a3a;
-        transition: 0.3s;
+        
         color: blueviolet;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -ms-transition: 0.3s;
-        -o-transition: 0.3s;
+     
 }
 
     .main-footer {
