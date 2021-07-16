@@ -660,9 +660,20 @@
 }
 
 .main {
+  position: relative;
   width: 70%;
   padding-left: 1px;
   background-color: black;
+}
+
+.main .main-footer {
+  position: absolute;
+  width: 80%;
+  top: 82%;
+  left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .main .main-logo {
@@ -783,7 +794,7 @@
 }
 
 .main .main-chats {
-  width: 95%;
+  width: 100%;
   height: 74vh;
   overflow: scroll;
   overflow-x: hidden;
@@ -873,6 +884,20 @@
   -o-border-radius: 8px;
 }
 
+.main .main-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .main .main-info {
   margin-left: 25px;
 }
@@ -895,8 +920,7 @@
 }
 
 .main .main-message {
-  width: 500px;
-  margin-left: 110px;
+  width: 70%;
   background-color: #212121;
   padding: 10px 20px;
   text-align: start;
@@ -924,8 +948,6 @@
 }
 
 .main .main-input {
-  padding: 8px 25px;
-  padding-right: 150px;
   background-color: #212121;
   border: none;
   margin-left: 10px;
@@ -956,7 +978,7 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  margin-left: 30px;
+  margin-left: 10px;
 }
 
 .main .main-microphone:hover {
@@ -964,23 +986,10 @@
   color: blueviolet;
 }
 
-.main .main-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 200px 80px 15px 100px;
-  position: fixed;
-  bottom: 0;
-}
-
 .main .main-header,
 .main .main-chats,
 .main .main-footer {
   display: none;
-}
-
-.main-footer--active {
-  margin: 50px 100px;
 }
 
 .main-microphone--active {

@@ -422,19 +422,19 @@ mainSearchBtnElement.addEventListener("click", event => {
     searchSectionElement.style.display = "flex"
     searchSectionElement.style.borderLeft = "1px solid black"
     contentElement.style.display = "none"
-    // contentElement.style.display= "block"
-    mainFooterElement.style.margin = "10px 0px 10px 10px"
-    mainMicrophoneElement.style.marginLeft = "10px"
-    mainChatsElement.style.margin = "10px"
-    mainInputElement.style.paddingRight = "50px"
-    mainAsideElement.style.display = "none"
+    // // contentElement.style.display= "block"
+    // mainFooterElement.style.margin = "10px 0px 10px 10px"
+    // mainMicrophoneElement.style.marginLeft = "10px"
+    // mainChatsElement.style.margin = "10px"
+    // mainInputElement.style.paddingRight = "50px"
+    // mainAsideElement.style.display = "none"
 
     searchBtnElement.addEventListener("click", event => {
         searchSectionElement.style.display = "none"
-        mainFooterElement.style.marginLeft = "00px"
-        mainMicrophoneElement.style.marginLeft = "15px"
-        // mainChatsElement.style.marginLeft = "20px"
-        mainInputElement.style.paddingRight = "200px"
+        // mainFooterElement.style.marginLeft = "00px"
+        // mainMicrophoneElement.style.marginLeft = "15px"
+        // // mainChatsElement.style.marginLeft = "20px"
+        // mainInputElement.style.paddingRight = "200px"
     })
 
     searchXSpanElement.addEventListener("click", event => {
