@@ -355,10 +355,10 @@ mainBoxElement.addEventListener("click", event => {
 
     contentElement.style.display = "block"
     // mainFooterElement.classList.add("main-footer--active")
-    mainFooterElement.style.margin = "50px 300px 20px 20px"
+    // mainFooterElement.style.margin = "50px 300px 20px 20px"
     mainMicrophoneElement.style.marginLeft = "10px"
     mainChatsElement.style.margin = "10px"
-    mainInputElement.classList.add("main-input--active")
+    // mainInputElement.classList.add("main-input--active")
     searchSectionElement.style.display = "none"
 
     contentImgElement.src = data.chats[selected].profileImg;
@@ -395,7 +395,7 @@ asideMenuNoneElement = document.querySelector(".aside-menu--none")
 
 faTimesBtnElement.addEventListener("click", event => {
     contentElement.style.display = "none"
-    mainFooterElement.classList.remove("main-footer--active")
+    // mainFooterElement.classList.remove("main-footer--active")
     mainMicrophoneElement.style.marginLeft("main-microphone--active")
     mainChatsElement.style.margin = "10px"
     mainInputElement.classList.remove("main-input--active")
