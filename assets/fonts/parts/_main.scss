@@ -23,7 +23,7 @@ $secondSize:25px;
     .main-footer {
         position: absolute;
         width: 80%;
-        top: 82%;
+        top: 88%;
         left:10%;
         display: flex; 
         // justify-content:space-between;
@@ -92,6 +92,7 @@ $secondSize:25px;
         font-size: 22px;
         font-weight: 300;
         transition: 0.3s;
+        cursor: pointer;
 
 
     }
@@ -118,7 +119,7 @@ $secondSize:25px;
         width: 50px;
         height: 50px;
         color: rgb(131, 131, 131);
-
+        cursor: pointer;
         padding: 4px;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -138,7 +139,7 @@ $secondSize:25px;
         width: 100%;
         height: 74vh;
         overflow: scroll;
-        overflow-x: hidden;
+        overflow-y: hidden;
 // margin: 0px 5px 0px 15px;
 // margin: 0 auto;
     }
@@ -258,7 +259,7 @@ $secondSize:25px;
     }
 
     .main-message {
-        width: 70%;
+        width: 80%;
          
         background-color: $bgColor;
         padding: 10px $size;
@@ -270,7 +271,7 @@ $secondSize:25px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
         display: flex;
-        // justify-content: center;
+        // justify-content: space-between;
         align-items: center;
     }
 
@@ -279,9 +280,18 @@ $secondSize:25px;
         color:$textColor;
         border: none;
         font-size: 24px;
-
-    }
-
+        cursor: pointer;
+        border-radius: 50%;
+        
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: 0.3s;
+}
+.main-emoji-btn:hover {
+color:yellow;
+}
     .main-input {
         // padding: 8px $secondSize;
         // padding-right: 50px;
@@ -298,9 +308,16 @@ $secondSize:25px;
         border: none;
         color:$textColor;
         font-size: 22px;
-
+transition: 0.3s;
+cursor: pointer;
     }
-
+    .main-download-btn:hover{
+        color:blue;
+        
+    }
+.main-download{
+    margin-left: auto;
+}
     .main-microphone {
         background-color: $bgColor;
         border: none;
@@ -316,6 +333,7 @@ $secondSize:25px;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
         margin-left: 10px;
+        cursor: pointer;
     }
     .main-microphone:hover{
         background-color: #3b3a3a; 

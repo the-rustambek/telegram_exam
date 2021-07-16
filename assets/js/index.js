@@ -357,9 +357,12 @@ mainBoxElement.addEventListener("click", event => {
     // mainFooterElement.classList.add("main-footer--active")
     // mainFooterElement.style.margin = "50px 300px 20px 20px"
     mainMicrophoneElement.style.marginLeft = "10px"
-    mainChatsElement.style.margin = "10px"
+    // mainChatsElement.style.margin = "10px"
     // mainInputElement.classList.add("main-input--active")
     searchSectionElement.style.display = "none"
+    mainAsideElement.style.margin="0px"
+    mainAsideElement.style.width="300px"
+    mainAsideElement.style.left="50%"
 
     contentImgElement.src = data.chats[selected].profileImg;
     contentTitleElement.textContent = data.chats[selected].chatName
@@ -397,9 +400,13 @@ faTimesBtnElement.addEventListener("click", event => {
     contentElement.style.display = "none"
     // mainFooterElement.classList.remove("main-footer--active")
     mainMicrophoneElement.style.marginLeft("main-microphone--active")
-    mainChatsElement.style.margin = "10px"
+    
     mainInputElement.classList.remove("main-input--active")
-    mainChatsElement.style.margin = "20px 60px"
+    
+
+
+
+
 
 })
 
@@ -422,19 +429,13 @@ mainSearchBtnElement.addEventListener("click", event => {
     searchSectionElement.style.display = "flex"
     searchSectionElement.style.borderLeft = "1px solid black"
     contentElement.style.display = "none"
-    // // contentElement.style.display= "block"
-    // mainFooterElement.style.margin = "10px 0px 10px 10px"
-    // mainMicrophoneElement.style.marginLeft = "10px"
-    // mainChatsElement.style.margin = "10px"
-    // mainInputElement.style.paddingRight = "50px"
-    // mainAsideElement.style.display = "none"
-
+ 
+    mainAsideElement.style.margin="0px"
+    mainAsideElement.style.width="300px"
+    mainAsideElement.style.left="50%"
     searchBtnElement.addEventListener("click", event => {
         searchSectionElement.style.display = "none"
-        // mainFooterElement.style.marginLeft = "00px"
-        // mainMicrophoneElement.style.marginLeft = "15px"
-        // // mainChatsElement.style.marginLeft = "20px"
-        // mainInputElement.style.paddingRight = "200px"
+       
     })
 
     searchXSpanElement.addEventListener("click", event => {
@@ -546,6 +547,28 @@ mainMenuBtnElement.addEventListener("dblclick", event => {
 
 asideFormElement = document.querySelector(".aside-form")
 asideSearchListElement = document.querySelector(".aside-search-list")
+
+
+
+
+
+
+partElement=document.querySelector(".part")
+asideNtfInputElement=document.querySelector(".aside-ntf-input")
+
+asideNtfInputElement.addEventListener("click",event =>{
+    partElement.classList.toggle("part-light")
+    partElement.style.backgroundColor = "white"
+})
+
+
+
+
+
+
+
+
+
 
 
 
@@ -695,3 +718,6 @@ asideSearchListElement = document.querySelector(".aside-search-list")
 
 //     asideSearch()
 // })
+
+
+

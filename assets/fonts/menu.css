@@ -34,6 +34,7 @@
   -o-border-radius: 50%;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .aside .aside-btn:hover {
@@ -463,6 +464,7 @@
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  cursor: pointer;
 }
 
 .content .fa-times-btn:hover {
@@ -470,6 +472,7 @@
 }
 
 .content .fa-pencil-btn {
+  cursor: pointer;
   background-color: #212121;
   border: none;
   color: #A5A5A5;
@@ -669,17 +672,11 @@
 .main .main-footer {
   position: absolute;
   width: 80%;
-  top: 82%;
+  top: 88%;
   left: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .main .main-logo {
@@ -763,6 +760,7 @@
   font-weight: 300;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .main .main-search-btn {
@@ -786,6 +784,7 @@
   width: 50px;
   height: 50px;
   color: #838383;
+  cursor: pointer;
   padding: 4px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -803,7 +802,7 @@
   width: 100%;
   height: 74vh;
   overflow: scroll;
-  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .main .main-list {
@@ -926,7 +925,7 @@
 }
 
 .main .main-message {
-  width: 70%;
+  width: 80%;
   background-color: #212121;
   padding: 10px 20px;
   text-align: start;
@@ -948,6 +947,18 @@
   color: #6E6E6E;
   border: none;
   font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.main .main-emoji-btn:hover {
+  color: yellow;
 }
 
 .main .main-input {
@@ -964,6 +975,17 @@
   border: none;
   color: #6E6E6E;
   font-size: 22px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.main .main-download-btn:hover {
+  color: blue;
+}
+
+.main .main-download {
+  margin-left: auto;
 }
 
 .main .main-microphone {
@@ -982,6 +1004,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .main .main-microphone:hover {
@@ -1108,5 +1131,10 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.part-light {
+  background-color: white;
+  color: black;
 }
 /*# sourceMappingURL=menu.css.map */

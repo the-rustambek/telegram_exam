@@ -52,12 +52,14 @@ $secondSize:25px;
         -moz-transition: 0.3s;
         -ms-transition: 0.3s;
         -o-transition: 0.3s;
+        cursor: pointer;
 }
     .fa-times-btn:hover{
         background-color: #3b3a3a;
       
 }
     .fa-pencil-btn {
+        cursor: pointer;
         background-color: $bgColor;
         border: none;
         color: #A5A5A5;
